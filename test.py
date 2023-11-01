@@ -4,7 +4,7 @@ Original souce code: https://github.com/ZhihengCV/Bayesian-Crowd-Counting
 import torch
 import os
 import numpy as np
-from datasets.crowd import Crowd
+from crowd import Crowd
 import argparse
 from models import M_SFANet_UCF_QNRF 
 
